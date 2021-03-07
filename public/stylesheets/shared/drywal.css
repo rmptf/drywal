@@ -1,0 +1,172 @@
+.drywalScope--dw * {
+  --main-color-root: black;
+  --main-color-2-root: white;
+  --highlight-color-root: #6dd5ed;
+  --highlight-color-2-root: #d5a553;
+  --warning-color-root: red;
+  --neutral-color-root: #00000010;
+  --success-color-root: var(--highlight-color-root);
+
+  --navigation-height-root: 11rem;
+  --devHeader-height-root: 2rem;
+}
+.icons--dw {
+  padding: 0.5rem;
+  color: #474036;
+  /* color: red; */
+}
+
+.drywalScope--dw header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: var(--navigation-height-root);
+  width: 100%;
+  /* background-color: red; */
+}
+.drywalScope--dw nav {
+  position: flex;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  /* background-color: powderblue; */
+}
+.drywalScope--dw nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  /* width: 100%; */
+  /* background-color: slategray; */
+}
+/* .drywalScope--dw nav li {
+    width: 100%;
+    background-color: lightpink;
+  } */
+.drywalScope--dw nav a {
+  text-decoration: none;
+}
+.logo-container--dw {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 19%;
+  min-width: 18rem;
+  height: 100%;
+  transition: all 0.5s ease;
+  /* background-color: pink; */
+}
+.logo--left--dw {
+  left: 0rem;
+  flex-direction: row;
+}
+.logo--right--dw {
+  right: 0rem;
+}
+.right--max--dw {
+  opacity: 1;
+}
+.right--min--dw {
+  opacity: 0;
+}
+
+.fullPage__body--dw {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: var(--navigation-height-root);
+  height: calc(100% - var(--navigation-height-root));
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+.body__image--dw {
+  background-image: url("../../../pageimages/jpg/SweaterBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+}
+.image__text--dw {
+  margin: auto;
+  text-align: center;
+  /* background-color: slategray; */
+}
+.body__footer--dw {
+  display: none;
+  flex-direction: column;
+  width: 18rem;
+  padding: 3rem;
+  /* background-color: pink; */
+}
+.footer__text--dw {
+  padding: 1rem;
+}
+.drywalScope--dw h1 {
+  color: #f7f3f0;
+  font-size: 76px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.drywalScope--dw h2 {
+  color: #474036;
+  font-size: 58px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.drywalScope--dw h3 {
+  color: #474036;
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.drywalScope--dw h4 {
+  color: #474036;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 200;
+}
+.drywalScope--dw h5 {
+  color: #474036;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+/* <---------------------------------------dynamic---------------------------------------> */
+
+@media screen and (max-width: 768px) {
+  .logo--left--dw {
+    left: 0rem;
+    flex-direction: column;
+  }
+
+  .right--max--dw {
+    opacity: 0;
+  }
+  .right--min--dw {
+    opacity: 1;
+  }
+  .drywalScope--dw nav ul {
+    display: none;
+  }
+  .fullPage__body--dw {
+    display: inline-block;
+  }
+  .body__image--dw {
+    margin: none;
+    height: 70%;
+  }
+  .body__footer--dw {
+    display: flex;
+  }
+}

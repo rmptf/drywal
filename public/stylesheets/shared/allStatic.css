@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 1.6rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 3rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Waiting for the Sunrise", cursive;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 1.1rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 200;
+}

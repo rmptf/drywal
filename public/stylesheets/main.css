@@ -1,0 +1,27 @@
+@import "shared/drywal.css";
+@import "shared/allStatic.css";
+
+:root {
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --main-color-root: black;
+  --main-color-2-root: white;
+  --highlight-color-root: #6dd5ed;
+  --highlight-color-2-root: #d5a553;
+  --warning-color-root: red;
+  --neutral-color-root: #00000010;
+  --success-color-root: var(--highlight-color-root);
+
+  --main-color-root-rgb: 0, 0, 0;
+  --main-color-2-root-rgb: 255, 255, 255;
+  --highlight-color-root-rgb: 109, 213, 237;
+  --highlight-color-2-root-rgb: 213, 165, 83;
+  --warning-color-root-rgb: 255, 0, 0;
+  --neutral-color-root-rgb: 0, 0, 0, 0.314;
+  --success-color-root-rgb: var(--highlight-color-root-rgb);
+
+  --navigation-height-root: 5rem;
+  --devHeader-height-root: 2rem;
+}
