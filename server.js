@@ -24,8 +24,10 @@ db.once('open', () => console.log('Connected to Mongoose'))
 
 const indexRouter = require('./routes/index')
 const webstoreRouter = require('./routes/webstore')
+const twodcad = require('./routes/twodcad')
 
 app.use('/', indexRouter)
 app.use('/webstore', webstoreRouter)
+app.use('/twodcad', twodcad)
 
 app.listen(process.env.PORT || 3000)
