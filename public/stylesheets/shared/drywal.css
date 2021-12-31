@@ -86,7 +86,8 @@
   /* background-color: blueviolet; */
 }
 .body__image--dw {
-  background-image: url("../../../pageimages/jpg/SweaterBG.png");
+  background-image: url("../../../pageimages/jpg/tshirtBG.jpg");
+  /* background-image: url("../../../pageimages/jpg/SweaterBG.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,12 +114,14 @@
 }
 .drywalScope--dw h1 {
   color: #f7f3f0;
+  color: #c0b1a6;
   font-size: 76px;
   font-family: Roboto;
   font-weight: 700;
 }
 .drywalScope--dw h2 {
   color: #474036;
+  color: #746a5c;
   font-size: 58px;
   font-family: Roboto;
   font-weight: 400;
